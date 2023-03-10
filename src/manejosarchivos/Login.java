@@ -77,7 +77,7 @@ public class Login extends javax.swing.JFrame {
         user = Usuario.getText();
         password = Contraseña.getText();
         
-        if(Usuario.getText().equals("carlos23") && Contraseña.getText().equals("carlos256"))
+        if(Usuario.getText().equals("carlos23") && Contraseña.getText().equals("sucontrasena"))
         {
             Menu nuevo = new Menu();
             nuevo.setVisible(true);
